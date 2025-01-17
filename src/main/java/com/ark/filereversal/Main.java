@@ -4,9 +4,9 @@ import com.ark.filereversal.processing.FileReverser;
 import com.ark.filereversal.processing.Reverser;
 import com.ark.filereversal.util.FileReversalException;
 
-import static com.ark.filereversal.util.Constants.*;
-
 import java.io.*;
+
+import static com.ark.filereversal.util.Constants.*;
 
 /**
  * @author Abdul Rab Khan
@@ -39,10 +39,10 @@ public class Main {
     }
 
     private static String getOutputFilePath() {
-        return OUTPUT_FILE_PATH + "/" + OUTPUT_FILE_NAME;
+        return OUTPUT_FILE_PATH + FILE_SEPARATOR + OUTPUT_FILE_NAME;
     }
 
     private static String getInputFilePath() {
-        return INPUT_FILE_PATH + "/" + INPUT_FILE_NAME;
+        return INPUT_FILE_PATH + FILE_SEPARATOR + INPUT_FILE_NAME;
     }
 }

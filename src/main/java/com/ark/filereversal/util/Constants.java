@@ -7,8 +7,9 @@ package com.ark.filereversal.util;
  * </p>
  */
 public interface Constants {
-    public static String INPUT_FILE_PATH ="./input";
-    public static String OUTPUT_FILE_PATH = "./output";
-    public static String INPUT_FILE_NAME = "input.txt";
-    public static String OUTPUT_FILE_NAME = "output.txt";
+   String INPUT_FILE_PATH ="./input";
+   String OUTPUT_FILE_PATH = "./output";
+   String INPUT_FILE_NAME = "input.txt";
+   String OUTPUT_FILE_NAME = "output.txt";
+   String FILE_SEPARATOR = "/";
 }
