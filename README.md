@@ -1,7 +1,7 @@
 # FileReader App
 
 **Created on 17-Jan-2025**
-
+*** This app will reverse the content of file line by line
 ## How to run the project
 
 1. **Import the project in Eclipse/IntelliJ:** Import the project into Eclipse or IntelliJ as a Maven project.
